@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="es">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Curriculum Bisbal" />
+    <meta name="author" content="Bisbal Luciano">
+	<meta property="og:type" content="proyecto integrador final"/>
+	<meta property="og:url" content="https://athilema.github.io/ticmas/index.html" />
+	<meta property="og:image" content="/imagenes/1.png" />
+    <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="css/curry.css" /> 
+    <script type = "text/javascript" src="js/curry.js"></script>
+</head>
+<body>
+   
+    <!-- Encabezado -->
+    <header>
+      <h1>Luciano Andres Bisbal</h1>
+      <p>Luciano@dmgroup.com / 299456654</p>
+    </header>
+
+    <!-- División a la izquierda -->
+    <divizq>
+      <img src="imagenes\1.png" alt="Mi foto" height="150">
+      <h3>Perfil Profesional</h3>
+      <p>Habilidade de liderazgo y resolucion de problemas</p>
+      <p>Integrador y proactivo</p>
+    </divizq>
+
+   
+    <main>
+     
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li>
+          <h3>IT</h3>
+          <p><em>DmGroup</em></p>
+          <p>05/08/2000 - Actualmente activo</p>
+          <ul>
+            <li>Diseño e implemetacion de infraestructura informatica</li>
+            <li>Diseño e implemetacion de redes</li>
+            <li>Mantinimiento en datacenter local</li>
+          </ul>
+        </li>
+      </ul>
+     
+      <h2>Educación</h2>
+      <ul>
+        <li>
+          <h3>Teniconico informatico</h3>
+          <p><em>UTN Bahia blanca </em></p>
+          <p>2002 - 2003</p>
+        </li>
+        <li>
+          <h3>CCNA Redes e infraestrucutra</h3>
+          <p><em>UTN</em></p>
+          <p>2008 - 2009</p>
+        </li>
+      </ul>
+
+    </main>
+
+    <button id="boton" onclick="abrirVentana()">Enviar curriculum</button>
+    <dialog id="ventanacorreo">
+      <h1>Introduce el correo destino</h1>
+      <input type="text" id="correo">
+      <button onclick="cerrarVentana()">Enviar</button>
+    </dialog>
+   
+
+  
+</body>

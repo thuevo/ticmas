@@ -1,0 +1,52 @@
+/* Estilos CSS para el currículum */
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 20px;
+  }
+  header {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  divizq{
+    background-color: #dde;
+    padding: 20px;
+  }
+  main {
+    padding: 20px;
+  }
+  h1, h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  #boton {
+    height: 300;
+    width: 300;
+    border: 3px;
+    border-radius: 5px;
+    border-style: outset;
+  }
+
+ 
