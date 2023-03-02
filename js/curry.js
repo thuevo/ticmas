@@ -1,7 +1,4 @@
 
-
-
-
 const Urlcurry="http://git.micurry.html"
 function abrirVentana() {
 const ventana = document.getElementById('ventanacorreo');
@@ -13,19 +10,20 @@ const ventana = document.getElementById('ventanacorreo');
 let destino = document.getElementById('correo').value;
 ventana.close ();
 alert(`Correo enviado a: ${destino}!`);
-enviarCorreo(destino,'curriculum','Te envio mi curriculum')
+enviarCorreo(destino,'curriculum','Te envio mi curriculum ' + Urlcurry);
 
 
 }
 
   
-  const CLIENT_ID = 'xxxxxxx';
-  const API_KEY = 'asdasdadadassdasdassdasd';
+  const CLIENT_ID = 'TU_ID';
+  const API_KEY = 'TU_API_KEY';
   const SCOPE = 'https://www.googleapis.com/auth/gmail.send';
   const EMAIL = 'lucianobisbal@gmail.com';
   
   function enviarCorreo(destinatario, asunto, mensaje) {
-    console.log ('este destinatario '+ destinatario)
+    console.log ('este destinatario '+ destinatario);
+    console.log ('este mensaje '+ mensaje);
     gapi.client.load('gmail', 'v1', () => {
       const base64EncodedEmail = btoa(
         `From: "${EMAIL}"
