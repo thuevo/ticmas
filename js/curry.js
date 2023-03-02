@@ -1,4 +1,4 @@
-// Reemplaza los valores en mayúsculas con tu información de credenciales y detalles de correo electrónico.
+
 
 
 
@@ -12,14 +12,15 @@ function cerrarVentana() {
 const ventana = document.getElementById('ventanacorreo');
 let destino = document.getElementById('correo').value;
 ventana.close ();
-enviarCorreo(destino,'curriculum','Te envio mi curriculum')
 alert(`Correo enviado a: ${destino}!`);
+enviarCorreo(destino,'curriculum','Te envio mi curriculum')
+
 
 }
 
   
-  const CLIENT_ID = 'TU_ID';
-  const API_KEY = 'TU_API_KEY';
+  const CLIENT_ID = 'xxxxxxx';
+  const API_KEY = 'asdasdadadassdasdassdasd';
   const SCOPE = 'https://www.googleapis.com/auth/gmail.send';
   const EMAIL = 'lucianobisbal@gmail.com';
   
